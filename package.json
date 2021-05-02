@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okiniko/portfolio2021.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "okiniko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okiniko/portfolio2021/issues"
+  },
+  "homepage": "https://github.com/okiniko/portfolio2021#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-csso": "latest",
+    "gulp-sass": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-autoprefixer": "latest",
+    "handlebars": "latest"
+  },
+  "dependencies": {
+   
+  }
+}
