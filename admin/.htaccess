@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "fichiers réservés"
+AuthUserFile / https://okiniko.fr/2021/.htpasswd
+AuthPGAuthoritative Off
+require user okiniko
+
+

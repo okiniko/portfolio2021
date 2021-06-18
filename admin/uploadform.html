@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>PHP File Upload</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formWrapper">
+            <h2> Nouvelle image
+            </h2>
+            <form action="fileUploadScript.php" method="post" enctype="multipart/form-data">
+                <input type="text" name="the_newname" id="nameOfFile">
+                <label for="the_file">Choisir</label>
+                <input type="file" name="the_file" id="fileToUpload">
+                <input type="submit" name="submit" value="Start Upload">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
